@@ -89,7 +89,13 @@ An interactive, insight-rich dashboard created in **Power BI** to visually repre
 
 ![Dashboard](https://github.com/sourabh0020/Apple-Retail-Sales-/blob/main/Snapshot%20of%20Sales%20Analysis.png)
 
+## 📊 Warranty Insights
 
+![Dashboard](https://github.com/sourabh0020/Apple-Retail-Sales-/blob/main/Snapshot%20of%20warranty%20Insights.png)
+
+## 📊 Advance Analysis
+
+![Dashboard](https://github.com/sourabh0020/Apple-Retail-Sales-/blob/main/Snapshot%20of%20Advance%20Analysis.png)
 ---
 
 ## 🙌 Credits

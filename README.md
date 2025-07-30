@@ -1,125 +1,91 @@
-# 🍏 Apple Retail Sales SQL Project - Analyzing Millions of Sales Rows  
-This project is designed to showcase advanced SQL querying techniques through the analysis of over 1 million rows of Apple retail sales data.
+# 🍏 Apple Retail Sales SQL Project + Power BI Dashboard
 
-## 📌 Project Overview
-
-This project is a deep dive into advanced SQL techniques using over **1 million rows** of Apple retail sales data. The dataset spans multiple years and includes detailed records across **stores, sales, products, categories**, and **warranty claims**. Through this project, we aim to explore business-critical insights by solving a series of tiered SQL problems — from beginner to expert level.
+This project combines advanced SQL querying with Power BI dashboarding to analyze over **1 million rows** of Apple retail sales data. It spans end-to-end analytics — from raw database to actionable visual insights.
 
 ---
 
-## 🗺️ Entity Relationship Diagram (ERD)
+## 🧠 Project Objective
 
-The database consists of five interrelated tables:
-- `stores`
-- `category`
-- `products`
-- `sales`
+To derive business insights using SQL and visualize key metrics in Power BI — including **sales trends**, **warranty claims**, **geographic distribution**, **product performance**, and more.
+
+---
+
+## 🗃️ Database Overview
+
+Five interrelated tables:
+
+- `stores`  
+- `category`  
+- `products`  
+- `sales`  
 - `warranty`
 
-These tables are structured to simulate a real-world retail environment, enabling a wide range of analytical queries and problem-solving scenarios.
+The data is structured to simulate real-world retail operations for Apple.
 
 ---
 
-## ✅ What’s Included
+## 🧪 SQL Problem Sets
 
-- **20 Real-World Business Queries** with step-by-step logic for critical problem-solving.
-- **5 Well-Structured Tables** simulating a live business scenario.
-- **1M+ Rows of Data**, perfect for query performance tuning and analysis.
+> Total: 20 real-world questions + bonus insights  
+> Difficulty: Beginner to Expert
+> Solving all problems helped me enhance my skill in SQL
 
----
-
-- **Analytical Thinking**: Encourages solving problems similar to those faced by companies like Apple in operational analysis.
-
----
-
-## 🧱 Database Schema Overview
-
-### 1. `stores`
-- `store_id`: Store identifier  
-- `store_name`: Name of the store  
-- `city`, `country`: Location details  
-
-### 2. `category`
-- `category_id`: Product category ID  
-- `category_name`: Name of the category  
-
-### 3. `products`
-- `product_id`: Product ID  
-- `product_name`: Name of the product  
-- `category_id`: Foreign key  
-- `launch_date`: Launch date  
-- `price`: Retail price  
-
-### 4. `sales`
-- `sale_id`: Sale transaction ID  
-- `sale_date`: Date of sale  
-- `store_id`, `product_id`: Foreign keys  
-- `quantity`: Quantity sold  
-
-### 5. `warranty`
-- `claim_id`: Claim ID  
-- `claim_date`: Date of claim  
-- `sale_id`: Foreign key  
-- `repair_status`: Status (e.g., Paid Repaired, Warranty Void)
+- Store distribution, sales by category
+- Claim ratios, product launches
+- Time-based trends, YoY growth
+- Correlation between price & claims
+- Running totals, window functions, and joins
 
 ---
 
-## 🎯 SQL Practice Levels
+## 📊 Power BI Dashboard: Apple Sales & Warranty
 
-### Easy to Medium (10 Questions)
-1. Number of stores per country  
-2. Total units sold by each store  
-3. Sales volume for December 2023  
-4. Stores with no warranty claims  
-5. % of claims marked as "Warranty Void"  
-6. Top-selling store (last year)  
-7. Unique products sold (last year)  
-8. Average price per category  
-9. Warranty claims in 2020  
-10. Best-selling day per store  
+An interactive, insight-rich dashboard created in **Power BI** to visually represent insights derived from SQL analysis.
 
-### Medium to Hard (5 Questions)
-11. Least selling product by country and year  
-12. Claims within 180 days of sale  
-13. Claims for products launched in last 2 years  
-14. High-sales months (USA, last 3 years)  
-15. Category with most claims (last 2 years)  
+### 🖼️ Dashboard Overview:
 
-### Complex (5 Questions)
-16. % chance of claim per country  
-17. Store-wise YOY growth  
-18. Price vs claims correlation by range  
-19. Store with highest % of "Paid Repaired" claims  
-20. Monthly running total of sales per store (4 years)
+#### 🟦 Page 1: Apple Sales & Warranty Summary
+- KPIs: Total Sales, Total Units Sold, Total Claims, Claim Rate
+- Top 5 Products & Country Sales
+- YoY trend for sales vs claims
 
-### Bonus
-- Segment sales trends by product age:  
-  `0–6 mo`, `6–12 mo`, `12–18 mo`, `18+ mo`
+#### 🟩 Page 2: Sales Analysis
+- Price-segmentation ("high", "medium", "Low") price-wise sales distribution
+- Top 10 least-selling products
+- Top 10 least sales by country
+- Store-wise product breakdown
+
+#### 🟨 Page 3: Warranty Insights
+- Claim breakdown by status
+- Category-wise claims
+- Country-wise TotalUnitSols,TotalClaims,ClaimRate (%)
+- top 10 Product-level ClaimRate (%)
+- - Price-segmentation ("high", "medium", "Low") price-wise total claims
+
+#### 🟥 Page 4: Advanced Analysis
+- Scatter plot: Avg Price vs Warranty Rate
+- Matrix: Store-wise YoY Unit Growth
+- Slicers for Price Segments & Years
+-Multi-card for KPIs like - Warranty rate, Claim Rate%, Void Claims%, Average Price
 
 ---
 
-## 🧠 Project Focus Areas
+## 🔧 Tools & Skills Used
 
-- **Complex Joins & Aggregations**
-- **Advanced Window Functions**
-- **Time-Based Data Segmentation**
-- **Trend and Correlation Analysis**
-- **Real-World Business Problem Solving**
-
----
-
-## 📊 Dataset Details
-
-- **Volume**: Over 1 million rows  
-- **Span**: Multiple years  
-- **Regions**: Global Apple store coverage  
-- **Tables**: Sales, Stores, Categories, Products, Warranties  
+- **SQL**: Joins, Aggregation, CTEs, Window Functions, Date logic
+- **Power BI**: DAX, Relationships, Slicers, What-if parameters, Conditional formatting
+- **Data Modeling**: STAR schema, ERD understanding
+- **Analytical Thinking**: Root-cause analysis, trend discovery
 
 ---
 
-## 🚀 Conclusion
+## 🖥️ Visuals Preview
 
-By completing this project, I develop expert-level SQL skills, master the ability to analyze large datasets, and gain hands-on experience with real-world business problems.
 
-**Crafted by Sourabh Yadav**  
-Advanced SQL Project | Apple Retail Simulation | End-to-End Analytics
+
+---
+
+## 🙌 Credits
+
+Project curated and developed by **Sourabh Yadav**  
+**Focus**: End-to-End SQL + BI Dashboards | Retail Analytics | KPI Tracking

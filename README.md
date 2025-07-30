@@ -81,10 +81,13 @@ An interactive, insight-rich dashboard created in **Power BI** to visually repre
 
 ## 🖥️ Visuals Preview
 
-## 📊 Sales Analysis
+## 📊 Summery
 
 ![Dashboard](https://github.com/sourabh0020/Apple-Retail-Sales-/blob/main/Snapshot%20of%20Summary.png)
 
+## 📊 Sales Analysis
+
+![Dashboard](https://github.com/sourabh0020/Apple-Retail-Sales-/blob/main/Snapshot%20of%20Sales%20Analysis.png)
 
 
 ---

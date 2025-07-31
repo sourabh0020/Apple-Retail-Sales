@@ -1,81 +1,118 @@
 # 🍏 Apple Retail Sales SQL Project + Power BI Dashboard
-
-This project combines advanced SQL querying with Power BI dashboarding to analyze over **1 million rows** of Apple retail sales data. It spans end-to-end analytics — from raw database to actionable visual insights.
+This project combines advanced SQL querying with Power BI dashboarding to analyze over 1 million rows of Apple retail sales data. It spans end-to-end analytics — from raw database to actionable visual insights.
 
 ---
 
-## 🧠 Project Objective
+# 🧠 Project Objective
+To derive business insights using SQL and visualize key metrics in Power BI — including sales trends, warranty claims, geographic distribution, product performance, and more.
 
-To derive business insights using SQL and visualize key metrics in Power BI — including **sales trends**, **warranty claims**, **geographic distribution**, **product performance**, and more.
+---
+
+## 🧹 Data Cleaning (Pre-Processing Stage)
+Before loading the data into SQL Server and Power BI, I performed essential cleaning in Python using pandas:
+
+✅ Removed duplicates across key identifiers
+
+✅ Stripped leading/trailing whitespaces in categorical columns (e.g., product names, regions)
+
+✅ Handled null values — especially in the price and sales columns
+
+✅ Ensured data type consistency (dates, numerics)
+
+✅ Verified yearly price data for consistency using external web references (e.g., Apple archived prices by year)
+
+✅ Saved the cleaned dataset to Excel, then imported into SQL Server for querying
+
+This preprocessing ensured reliable insights and accurate visualizations downstream.
 
 ---
 
 ## 🗃️ Database Overview
+The dataset contains 5 interrelated tables simulating Apple’s retail operations:
 
-Five interrelated tables:
+### stores
 
-- `stores`  
-- `category`  
-- `products`  
-- `sales`  
-- `warranty`
+### category
 
-The data is structured to simulate real-world retail operations for Apple.
+### products
+
+### sales
+
+### warranty
+
+### Relationships were structured in a Star Schema, with sales as the fact table.
 
 ---
 
 ## 🧪 SQL Problem Sets
+### Total Queries: 20 real-world business questions + bonus insights
 
-> Total: 20 real-world questions + bonus insights  
-> Difficulty: Beginner to Expert
-> Solving all problems helped me enhance my skill in SQL
+Difficulty: Beginner → Expert
 
-- Store distribution, sales by category
-- Claim ratios, product launches
-- Time-based trends, YoY growth
-- Correlation between price & claims
-- Running totals, window functions, and joins
+Skills Practiced:
 
----
+Store distribution, sales by category
 
-## 📊 Power BI Dashboard: Apple Sales & Warranty
+Product claim ratios, launch timing
 
-An interactive, insight-rich dashboard created in **Power BI** to visually represent insights derived from SQL analysis.
+Time-based trends, YoY growth
 
-### 🖼️ Dashboard Overview:
+Price vs claim rate correlation
 
-#### 🟦 Page 1: Apple Sales & Warranty Summary
-- KPIs: Total Sales, Total Units Sold, Total Claims, Claim Rate
-- Top 5 Products & Country Sales
-- YoY trend for sales vs claims
-
-#### 🟩 Page 2: Sales Analysis
-- Price-segmentation ("high", "medium", "Low") price-wise sales distribution
-- Top 10 least-selling products
-- Top 10 least sales by country
-- Store-wise product breakdown
-
-#### 🟨 Page 3: Warranty Insights
-- Claim breakdown by status
-- Category-wise claims
-- Country-wise TotalUnitSols,TotalClaims,ClaimRate (%)
-- top 10 Product-level ClaimRate (%)
-- - Price-segmentation ("high", "medium", "Low") price-wise total claims
-
-#### 🟥 Page 4: Advanced Analysis
-- Scatter plot: Avg Price vs Warranty Rate
-- Matrix: Store-wise YoY Unit Growth
-- Slicers for Price Segments & Years
--Multi-card for KPIs like - Warranty rate, Claim Rate%, Void Claims%, Average Price
+Running totals, advanced joins, window functions
 
 ---
 
-## 🔧 Tools & Skills Used
+# 📊 Power BI Dashboard: Apple Sales & Warranty
+An interactive, insight-rich dashboard created in Power BI to visually communicate findings from SQL analysis.
 
-- **SQL**: Joins, Aggregation, CTEs, Window Functions, Date logic
-- **Power BI**: DAX, Relationships, Slicers, What-if parameters, Conditional formatting
-- **Data Modeling**: STAR schema, ERD understanding
-- **Analytical Thinking**: Root-cause analysis, trend discovery
+---
+
+# 🖼️ Dashboard Pages Overview:
+### 🟦 Page 1: Sales & Warranty Summary
+KPIs: Total Sales, Total Units Sold, Total Claims, Claim Rate (%)
+
+Top 5 Products & Country Sales
+
+Sales vs Claims YoY Trend Line
+
+### 🟩 Page 2: Sales Analysis
+Sales by price segmentation: High, Medium, Low
+
+Bottom 10 Products & Countries by Sales
+
+Store-wise Product Sales Breakdown
+
+### 🟨 Page 3: Warranty Insights
+Claim Breakdown by Status
+
+Category-wise and Country-wise Claims
+
+Top 10 Products by Claim Rate (%)
+
+Claim count by Price Segments
+
+### 🟥 Page 4: Advanced Analytics
+Scatter Plot: Avg Price vs Warranty Rate
+
+Matrix: Store-wise YoY Unit Growth
+
+Interactive Slicers: Year, Price Segment
+
+Multi-KPIs: Claim %, Void %, Avg Price
+
+---
+
+# 🔧 Tools & Skills Used
+SQL: Joins, Aggregations, CTEs, Window Functions, Date Logic
+
+Power BI: DAX Measures, Relationships, Conditional Formatting, What-If Parameters
+
+Python (pandas): Data Cleaning & Transformation
+
+Data Modeling: Star Schema, ERD
+
+Analytical Thinking: Root-Cause Analysis, KPI Design, Trend Identification
 
 ---
 

@@ -134,7 +134,8 @@ Analytical Thinking: Root-Cause Analysis, KPI Design, Trend Identification
 
 ![Dashboard](https://github.com/sourabh0020/Apple-Retail-Sales-/blob/main/Snapshot%20of%20Advance%20Analysis.png)
 ---
-Overall Summary
+# Overall Summary
+
 ### Key Insights:
 Total Sales: $977M with 1M units sold and 31K claims — overall Claim Rate: 3.01%
 ### Top Revenue Generating Products:
@@ -163,22 +164,22 @@ Many stores like Apple Istanbul and Ankara had inconsistent YoY performance (e.g
 ---
 
 ### Recommendations to the Company
-1.Improve Product Quality Control
+1.Improve Product Quality Control :
 Investigate products with >20% claim rates (iPad Air 4th Gen, Apple Watch Series 5) for recurring manufacturing or design issues.
 Conduct post-claim interviews or surveys in UAE and Spain to understand why claims are so high.
 
-2. Reevaluate Warranty Policy Enforcement
+2. Reevaluate Warranty Policy Enforcement :
 High void claim percentage (23.16%) suggests confusion or misuse — improve customer education or streamline claim criteria.
 
-3. Divest or Reposition Low-Selling Products
+3. Divest or Reposition Low-Selling Products :
 Products like Apple Fitness, AirPods 2nd Gen, Apple One are not performing well.
 Consider bundling, discounting, or repositioning them for niche use cases.
 
-4. Optimize Inventory & Store Sales Performance
+4. Optimize Inventory & Store Sales Performance:
 Stores like Apple Bangkok and Buenos Aires show consistent sales decline.
 Perform market analysis or retail staff performance audits to decide whether to revamp, relocate, or close underperforming stores.
 
-5. Focus on High-Potential Mid-Priced Segments
+5. Focus on High-Potential Mid-Priced Segments :
 Mid-range products dominate in sales but also in claims.
 Explore slight quality upgrades or extended warranty upsells to protect margins.
 
@@ -186,6 +187,7 @@ Explore slight quality upgrades or extended warranty upsells to protect margins.
 
 ### Next Possible Steps:
 Conduct deep dive reports into high-claim regions and products.
+
 Set up Power BI alerts on sudden spikes in claim rates.
 
 ## 🙌 Credits

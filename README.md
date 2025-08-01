@@ -156,15 +156,17 @@ Products like HomePod, AirPods (2nd & 3rd Gen) and countries like Dominican Repu
 ### Deep Observations:
 Year-over-Year Sales Trends:
 2021 saw a peak in sales ($297M) but a drop in 2022 and 2023.
+
 Warranty & Claim Rate vs. Price Segment:
 High-priced products show lower claim rates compared to medium- and low-priced ones.
+
 Store-Level Sales Volatility:
 Many stores like Apple Istanbul and Ankara had inconsistent YoY performance (e.g., +12% in 2022, then +2% in 2023).
 
 ---
 
 ### Recommendations to the Company
-1.Improve Product Quality Control :
+1. Improve Product Quality Control :
 Investigate products with >20% claim rates (iPad Air 4th Gen, Apple Watch Series 5) for recurring manufacturing or design issues.
 Conduct post-claim interviews or surveys in UAE and Spain to understand why claims are so high.
 

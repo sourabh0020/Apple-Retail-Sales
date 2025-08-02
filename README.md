@@ -47,22 +47,9 @@ The dataset contains 5 interrelated tables simulating Apple’s retail operation
 
 **Total Queries: 20 real-world business questions** 
 
-**Example:**
-
-![Dashboard](https://github.com/sourabh0020/Apple-Retail-Sales/blob/main/Data%20modelling.png)
-
 Difficulty: Beginner → Expert
 
-Skills Practiced:
-
-Store distribution, sales by category
-
-Product claim ratios, launch timing
-
-Time-based trends, YoY growth
-
-Price vs claim rate correlation
-
+Skills Practiced:Store distribution, sales by category ,Product claim ratios, launch timing ,Time-based trends, YoY growth ,Price vs claim rate correlation
 Running totals, advanced joins, window functions
 
 ---
@@ -70,6 +57,12 @@ Running totals, advanced joins, window functions
 # 📊 Power BI Dashboard: Apple Sales & Warranty
 An interactive, insight-rich dashboard created in Power BI to visually communicate findings from SQL analysis.
 
+---
+### **Data Model:**
+
+Before building the report, I structured the data using a star schema and established many-to-one relationships across tables, including a DAX-calculated Date Calendar for accurate time-based analysis.
+
+![Dashboard](https://github.com/sourabh0020/Apple-Retail-Sales/blob/main/Data%20modelling.png)
 ---
 
 #  Dashboard Pages Overview:

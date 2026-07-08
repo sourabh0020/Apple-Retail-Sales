@@ -10,14 +10,14 @@ End-to-end analytics project on Apple's global retail operations — **1.04M sal
 
 | Executive Overview | Sales Analysis |
 |---|---|
-| ![Overview](images/01-executive-overview.png) | ![Sales](images/02-sales-analysis.png) |
+| ![Overview](https://github.com/sourabh0020/Apple-Retail-Sales/blob/main/Images/02-Executive.png) | ![Sales](https://github.com/sourabh0020/Apple-Retail-Sales/blob/main/Images/03-%20Sales%20.png) |
 
 | Warranty Risk | Store Performance |
 |---|---|
-| ![Warranty](images/03-warranty-risk.png) | ![Store](images/04-store-performance.png) |
+| ![Warranty](https://github.com/sourabh0020/Apple-Retail-Sales/blob/main/Images/04%20-%20Warranty.png) | ![Store](https://github.com/sourabh0020/Apple-Retail-Sales/blob/main/Images/05-%20stores.png) |
 
 **Data Model:**
-![Data Model](images/00-data-model.png)
+![Data Model](https://github.com/sourabh0020/Apple-Retail-Sales/blob/main/Images/01-%20Data%20model.png)
 
 ---
 

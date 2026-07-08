@@ -14,7 +14,7 @@ End-to-end analytics project on Apple's global retail operations — **1.04M sal
 
 | Warranty Risk | Store Performance |
 |---|---|
-| ![Warranty](https://github.com/sourabh0020/Apple-Retail-Sales/blob/main/Images/04%20-%20Warranty.png) | ![Store](https://github.com/sourabh0020/Apple-Retail-Sales/blob/main/Images/05-%20stores.png) |
+| ![Warranty](https://github.com/sourabh0020/Apple-Retail-Sales/blob/main/Images/04-Warranty.png) | ![Store](https://github.com/sourabh0020/Apple-Retail-Sales/blob/main/Images/05-%20stores.png) |
 
 **Data Model:**
 ![Data Model](https://github.com/sourabh0020/Apple-Retail-Sales/blob/main/Images/01-%20Data%20model.png)

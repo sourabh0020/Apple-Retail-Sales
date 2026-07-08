@@ -339,7 +339,7 @@ left join
  on c.store_id = t.store_id
 
  --------------------------------------------------------------------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>
-/* 20.Write SQL query to calculate the monthly running total of sales for each store over the past
+/* 21. Write an SQL query to calculate the monthly running total of sales for each store over the past
  four years and compare the trends across this period? */
 
  with total_sale as 
